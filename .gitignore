@@ -1,0 +1,111 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Build outputs
+dist/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Prisma
+prisma/migrations/**/migration.sql
+# Keep the migrations folder structure but ignore the SQL files in development
+
+# Backup files
+*.backup
+*.bak
+backups/
+
+# Railway
+.railway/
+
+# Capacitor (for future mobile apps)
+.capacitor/
+android/
+ios/
+
+# Bundle analysis
+stats.html
+bundle-stats.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# PWA
+sw.js
+workbox-*.js
+
+# Sentry
+.sentryclirc
+
+# Local development
+.local/
+
+# Documentation builds (if using tools like VitePress)
+.vitepress/cache
+.vitepress/dist
+
+# Lock files (keep package-lock.json but ignore others)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: Ignore package-lock.json if using yarn or pnpm
+# package-lock.json
